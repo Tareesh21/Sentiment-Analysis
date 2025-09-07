@@ -2,6 +2,16 @@
 __pycache__/
 *.py[cod]
 
+# Test, coverage, and logs
+.pytest_cache/
+.coverage
+.coverage.*
+*.log
+
+# OS temp files
+~$*
+*.tmp
+
 # Environment files
 .env
 .venv/
